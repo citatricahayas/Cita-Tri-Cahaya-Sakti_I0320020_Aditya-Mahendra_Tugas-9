@@ -1,6 +1,6 @@
-
+import array
 #Mengkonversi string ke array.array
-B = bytearray.array('c')
+B = array.array('c')
 B.fromstring("Python")
 
 for karakter in B:
